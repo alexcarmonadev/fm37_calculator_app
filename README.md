@@ -1,13 +1,13 @@
 # Frontend Mentor - Calculator app solution
 
-:point_right: This is the [Calculator app](aqui va el reto de frontendmentor) challenge on Frontend Mentor.
+:point_right: This is the [Calculator app](https://www.frontendmentor.io/challenges/calculator-app-9lteq5N29) challenge on Frontend Mentor.
 
 ## Overview
 
 ### Links
 
-:heavy_check_mark: My `Solution` URL : [Frontend Mentor Solution](Aqui va tu solucion de frontendmentor) </br>
-:heavy_check_mark: My `Live` Site URL : [GitHub Pages](Aqui va tu solucion de github pages)
+:heavy_check_mark: My `Solution` URL : [Frontend Mentor Solution](https://www.frontendmentor.io/solutions/mobile-first-MEIjTSb1T) </br>
+:heavy_check_mark: My `Live` Site URL : [GitHub Pages](https://alexcarmonadev.github.io/fm37_calculator_app/)
 
 Give a ⭐️ if you like this project!
 
