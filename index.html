@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Frontend Mentor | Calculator app</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Spartan:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="css/colors-1.css" id="css-link" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="assets/images/favicon-32x32.png"
+    />
+    <meta
+      name="description"
+      content="Frontend Mentor Challenges are challenges to improve front-end coding skills by creating real projects."
+    />
+    <meta
+      name="keywords"
+      content="html, css, javascript, front-end, websites"
+    />
+    <meta name="author" content="Alexcarmonadev" />
+  </head>
+  <body>
+    <header class="header">
+      <h1 class="header__title">calc</h1>
+      <div class="header__toggle-container">
+        <p class="toggle__text">Theme</p>
+        <div class="toggle__box">
+          <div class="toggle-numbers">
+            <p>1</p>
+            <p>2</p>
+            <p>3</p>
+          </div>
+          <div class="toggle-buttons">
+            <input
+              data-theme="1"
+              type="radio"
+              name="option"
+              class="toggle-button active"
+              id="toggle-one"
+            />
+            <label for="toggle-one"></label>
+            <input
+              data-theme="2"
+              type="radio"
+              name="option"
+              class="toggle-button disabled"
+              id="toggle-two"
+            />
+            <label for="toggle-two"></label>
+            <input
+              data-theme="3"
+              type="radio"
+              name="option"
+              class="toggle-button disabled"
+              id="toggle-three"
+            />
+            <label for="toggle-three"></label>
+            <div class="toggle-button-slider"></div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main class="main">
+      <div class="main__result">
+        <p class="result-calc">399,981</p>
+      </div>
+      <div class="main__table">
+        <div class="btn key-calc">7</div>
+        <div class="btn key-calc">8</div>
+        <div class="btn key-calc">9</div>
+        <div class="btn del-reset del">DEL</div>
+        <div class="btn key-calc">4</div>
+        <div class="btn key-calc">5</div>
+        <div class="btn key-calc">6</div>
+        <div class="btn key-calc">+</div>
+        <div class="btn key-calc">1</div>
+        <div class="btn key-calc">2</div>
+        <div class="btn key-calc">3</div>
+        <div class="btn key-calc">-</div>
+        <div class="btn key-calc">.</div>
+        <div class="btn key-calc">0</div>
+        <div class="btn key-calc">/</div>
+        <div class="btn key-calc">x</div>
+        <div class="btn del-reset reset">RESET</div>
+        <div class="btn equal">=</div>
+      </div>
+    </main>
+
+    <footer class="footer">
+      <div class="attribution">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >. Coded by
+        <a href="https://github.com/alexcarmonadev" target="_blank"
+          >Alexcarmonadev</a
+        >.
+      </div>
+    </footer>
+    <script src="js/scripts.js"></script>
+  </body>
+</html>
